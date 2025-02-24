@@ -1,5 +1,6 @@
 import type { AuthProvider } from "@refinedev/core";
 import axios from 'axios';
+require ('dotenv').config();
 
 export const TOKEN_KEY = "refine-auth";
 
